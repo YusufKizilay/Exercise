@@ -30,6 +30,8 @@ public class Task implements Runnable {
 
 	@Override
 	public void run() {
+		
+		System.out.println("just for test....");
 
 		System.out.println(name + " running....");
 
